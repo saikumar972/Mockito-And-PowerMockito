@@ -1,0 +1,24 @@
+spring:
+  application:
+    name: mocktest
+
+  h2:
+    console:
+      enabled: true
+
+  datasource:
+    url: jdbc:h2:mem:testdb
+    driver-class-name: org.h2.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update # Automatically updates schema based on entity classes
+    show-sql: true # Shows SQL statements in logs
+
+  #output:
+  #  ansi:
+  #    enabled: true
+  output:
+    ansi:
+      enabled: ALWAYS
+
+

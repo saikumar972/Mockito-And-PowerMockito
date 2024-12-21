@@ -1,10 +1,10 @@
-package com.acc.mock.PowerMocktoTesting;
+package com.example.PowerMockito;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class PowerMocktoTestingApplicationTests {
+class PowerMockitoApplicationTests {
 
 	@Test
 	void contextLoads() {
